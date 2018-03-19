@@ -1,0 +1,39 @@
+body {
+    background-color: brown;
+}
+
+p{
+    background-color: black;
+    
+}
+
+h2{
+    text-align: center
+}
+.giraffe{
+    color: white;
+}
+#spongebob-title{
+    background-color: black;
+}
+img{
+    display: block;
+    margin: 20px auto;
+}
+h1{
+    text-align: center;
+}
+.title{
+    color: white;
+}
+.spongebob{
+    color: white;
+}
+#giraffe-title{
+    background-color: black;
+}
+.link{
+    color: white;
+}
+
+

@@ -1,0 +1,47 @@
+body{
+    background-color: black;
+    color: white;
+    font-size: large;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+    border-style: solid;
+    background-color: indigo;
+}
+#intro{
+    text-align: center;
+    border-style: double;
+    padding: 10px;
+    margin: 10px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmo08s-wZfLd-ydCWvWN64dubNqo_QpHFBVNXA_bc122W0uRvY)
+}
+div{
+    border-style: double;
+    display: inline-block;
+    padding: 10px;
+    margin: 5px;
+    width: 30.33%;
+    vertical-align: top;
+}
+img{
+    padding: 10px;
+}
+.ps{
+    border-style: double;
+    padding: 10px;
+    vertical-align: top;
+}
+.tl{
+    border-style: double;
+    padding: 10px;
+    vertical-align: top;
+}
+#paris{
+    vertical-align: middle;
+}
+#snowboard{
+    padding: 0px;
+}
