@@ -10,7 +10,7 @@ calculate.addEventListener("click", function(){
    var number2 = +num2.value;
    var op = operator.value;
 
-// 
+// sets operations
    if(op === "+"){
       display.innerHTML = number1 + number2;
    }
