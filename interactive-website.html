@@ -4,36 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Interactive Website</title>
+    <title>Document</title>
 </head>
 <body>
+    <h1 id="title"> The Dating Equation: Finding the "Socially Appropriate" Age of Your Date </h1>
+    <p id="directions"><strong>Directions</strong>: Enter your age in the box below, and choose one of the options from the drop-down menu.  Then, click on the button to calculate the minimum or maximum age of whom your significant other would be that is still considered "socially appropriate".  <em>(Notice: Rule is not accurate for people under the age of 14.)</em></p>
     
-    <h1 id="problem">Hungry, Broke, and Don't Know What to Eat?</h1>
+        <br>
     
-    <p>Type "yes" or "no".</p>
-    
-    <input id="yesorno" type="text">
-    
-    <button id="enter"> Enter </button>
-    
-    <br>
-    
-    <img id="wrong" src="http://bhoffert.faculty.noctrl.edu/HST165/WhatWentWrong.gif" height="0px">
-    
-    <br>
-    
-    <div class="sandwich">
-    <img id="bologna" src="https://jacksonfamilyministry.com/wp-content/uploads/2017/12/Im-the-Bologna-in-the-Sandwich-Generation.png" height="0px">
-    <img id="egg" src="http://www.simplyscratch.com/wp-content/uploads/2010/08/4863303006_7f49c65a7e_o.jpg" height="0px">
-    <img id="cheese" src="https://fthmb.tqn.com/hV6RGY0lfXEN4mu647zyFlkiA60=/3704x2688/filters:fill(auto,1)/grilled-cheese-sandwich-87992575-57ebfdd13df78c690f385704.jpg" height="0px">
-    <br>
-    <img id="ham" src="http://assets.kraftfoods.com/recipe_images/opendeploy/53460_SGS_%20K2304%20V0_OR1_FO_640x428.jpg" height="0px">
-    <img id="pbj" src="https://www.hormelfoods.com/wp-content/uploads/Newsroom_20170724_SKIPPY-Peanut-Butter-and-Jelly-Sandwich.jpg" height="0px">
-    <img id="tuna" src="https://www.seriouseats.com/recipes/images/2016/06/20160614-tuna-salad-sandwich-vicky-wasik-7-1500x1125.jpg" height="0px">
+    <div id="rule">
+        <input id="age">
+        <select id="ageOption">
+            <option>Find Minimum Age</option>
+            <option>Find Maximum Age</option>
+        </select>
+        <button id="calculate"> Calculate </button>
+            <br>
+            <br>
+        <div id="displayAge"> Min./Max. Age of Date </div>
     </div>
-    <div id="display"></div>
+    
+    <div id="images">
+    <img id="equations" src="http://cdcbranford.com/img/dating-age-appropriate-formula.jpg" height="200px">
+    <img id="graph" src="http://revolution-computing.typepad.com/.a/6a010534b1db25970b013482032a60970c-pi" height="200px">
+    <br>
+    <div id="displayText"> Click on an image for its description and ore information on The Dating Equation.</div>
+    </div>
     
     <script type="text/javascript" src="interactive-website.js"></script>
-
 </body>
 </html>
