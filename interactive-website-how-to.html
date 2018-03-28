@@ -81,72 +81,120 @@
         
         <div class="code-specifics">
             <h4>Select</h4>
-            <img id="image2" src="https://jonsuh.com/assets/images/blog/2014/convert-loop-through-json-php-javascript-arrays-objects/dynamic-select.gif" height="200px">
+            <img id="image" src="https://jonsuh.com/assets/images/blog/2014/convert-loop-through-json-php-javascript-arrays-objects/dynamic-select.gif" height="200px">
             <p>
-                contain option tags which create the choices ...
+                The select tag creates a drop-down list or menu containing several options.  Specifically, the select tag is used the create the 
+                drop-down list layout itself that can be clicked to have its options drop down.  Option tags must be used within the select element 
+                to display the various options that drop down in the list, and the name of each list item is defined between its two parts of the 
+                tag.  To make the website have certain effects when certain options are chosen, they are often made interactive using conditionals 
+                and if-else statements along with DOM methods in Javascript.  This allows the website to have various results to each option that is 
+                clicked on, giving the user more interaction.  Additionally, when typing each option into a conditional, they must be in quotations 
+                and be written <em>exactly</em> as they are in the HTML option tags for it to work.
             </p>
         </div>
         
         <div class="code-specifics">
             <h4>Button</h4>
-            <img  src="https://1.bp.blogspot.com/-Q57ttFIU21w/WL9--uYtf-I/AAAAAAAALfU/oleKXAVd_cEcJ_L_LLOv4ZmebvQMoTHPwCLcB/s1600/test4.gif" height="200px"/>
+            <img  src="https://1.bp.blogspot.com/-Q57ttFIU21w/WL9--uYtf-I/AAAAAAAALfU/oleKXAVd_cEcJ_L_LLOv4ZmebvQMoTHPwCLcB/s1600/test4.gif" height="180px"/>
             <p>
-                
+                The button tag creates a user clickable button in a webpage.  The buttons themselves can be styled through CSS, so that 
+                it instead has a more unique look than the default button appearance.  To make a button have text or a description on top of it, such as 
+                "enter" or "calculate", the text must be typed between the two pieces of the button tag, and it will appear above the button.  The 
+                descriptions are often used to briefly explain the function of the button.  Buttons are made functional and purposeful with the DOM 
+                so that there can be an affect to clicking it, like adding style or content to the website.  Many times, buttons are used to submit 
+                certain content, such as data from within an input box typed in by the user. This allows the user to obtain results from clicking the 
+                button.  One common example of this combination would be a search engine, like <em>Google</em>.
             </p>
         </div>
         
         <h3>Javascript HTML DOM Methods and Elements</h3>
         
         <div class="code-specifics">
-            <h4>getElementById</h4>
-            <img id="image2" src="" height="250px"/>
+            <h4>getElementById()</h4>
+            <img src="https://www.safaribooksonline.com/library/view/head-first-html5/9781449314712/httpatomoreillycomsourceoreillyimages2224176.png.jpg" height="140px"/>
             <p>
-                
+                The getElementById method is one of te most used methods in the DOM.  It is used each time a programmer wants to manipulate, change, 
+                or get information from an HTML element.  The getElementById() DOM method works in the Javascript file by using the id an HTML 
+                element is assigned to and looking for the same id in the HTML file it is linked to from top to bottom.  Once the getElementById 
+                method finds the id in the HTML file, it takes the element that contains the id and brings all of its information, such as position 
+                and color, and moves it back to the Javascript file so that there, it can be changed and modified.  The DOM method works with id 
+                name located in the parentheses within quotes, and it is often set to a variable so that it could be used to modify the HTML element 
+                directly through the Javascript file.
             </p>
         </div>
         
         <div class="code-specifics">
             <h4>addEventListener</h4>
-            <img id="image2" src="" height="250px"/>
+            <img src="https://cdn.tutsplus.com/active/uploads/legacy/flashtuts/074_EventListenersBasics/1.jpg" height="180px"/>
             <p>
-                
+                The addEventListener method works by listening for a specified event, such as "click", and runs a function once it pursues the 
+                event, and the function run is often anonymous, but is not always.  The addEventListener method begins with a variable, where the 
+                method listens for for an event to occur, such as a button.  The addEventListener then has the certain event stated in quotes and 
+                parentheses, followed by a comma to separate the event from the function.  The function run then causes a specific change or 
+                manipulation to occur, depending on what variable is stated in the function and what the function does to that variable as a result 
+                of an event occurring.  
             </p>
         </div>
         
         <div class="code-specifics">
             <h4>innerHTML</h4>
-            <img id="image2" src="" height="250px"/>
+            <img src="http://slideplayer.com/11908398/67/images/21/innerHTML+Example+%3C%21DOCTYPE+html%3E+%3Chtml%3E+%3Cbody%3E.jpg" height="200px"/>
             <p>
-                
+                The Javascript DOM innerHTML property allows the programmer to directly add to or change HTML content of an element through a 
+                Javascript file.  The innerHTML property works by having the variable name of the element being affected typed just before 
+                .innerHTML.  This is then set to the content being added to the element.  This content must be in parentheses if it is text that is 
+                being put into the website exactly as it is typed in between the quotes, but it does not have to if the content being added or 
+                changed is similar to an equation.  If this is the case, then the solution to the equation is put into the webpage instead of the 
+                equation itself.
             </p>
         </div>
         
         <h2>Programming Decisions</h2>
         
-        <div class="code-specifics">
+        <div class="wil">
             <h3>Id and Variable Names</h3>
             <p>
-                
+                I made many decisions regarding id and variable names during the process of creating my interactive website.  For id names, I 
+                decided on naming them for what the element represents.  For example, for the button, I named the id calculate, since the button 
+                calculates the solution to the equation and the word "Calculate" is displayed on the button itself.  For variable names, I decided 
+                on naming the variables exactly the same as the id names of the elements stored in the variables so that I could remember what each 
+                variable is for without getting confused as to knowing which variable goes to which HTML element.
             </p>
         </div>
         
-        <div class="code-specifics2">
+        <div class="wil">
             <h3>Topic: The Dating Equation</h3>
             <p>
-                
+                For my interactive website, I decided on basing it on "The Dating Equation" because it allowed me to use all of the required 
+                components of the project meaningfully.  For example, I was able to use a conditional, function, getElementById, eventListener, 
+                input, and innerHTML for just the equations, which already used almost half of the requirements.  This made it easier to 
+                include everything while understanding what I am programming and making interactive at the same time. I am also able to provide 
+                images that reveal more information about the topic using even more of the requirements and coding components.
             </p>
         </div>
         
-        <h2>How This Project Has Developed My Understanding of Programmed Interactions</h2>
+        <h2>How This Project Has Developed My Connection to and Understanding of Programmed Interactions</h2>
         
+        <img src="http://guyhaas.com/bfoit/itp/images/Programming_Wordle.jpg" height="250px"/>
         <p class="p">
-            
+            This project has developed my understanding of programmed interactions by allowing me to create code that makes websites interactive.  
+            By practicing this hands on experience, I am able to connect with interactions very closely.  I now know how to make HTML elements 
+            interactive using eventListeners, which make elements change through running a function as an affect an event or interaction made by the 
+            user, such as clicking a button or putting input into a website.  I also understand that making a website interactive allows the users 
+            to have more of a first hand experience, where they get to learn through completing their own actions with the support and guidance of 
+            what the website provides.
         </p>
     
         <h2>One Thing I Would Change or Improve About My Interactive Website</h2>
         
+        <img src="https://www.baboon.ro/wp-content/uploads/2017/11/hover1.gif"/>
         <p class="p">
-            
+            If I had more time, one thing I would change or improve about my interactive website would be making the input box, select drop-down 
+            list, and button larger and better looking.  Currently, all three components of the website look somewhat unprofessional compared to the 
+            rest of the webpage, as they are all plain, simple, and small and unproportional to the size of the rest of the website elements.  I 
+            would want to make my button have style, similarly to the one above.  Additionally, I would also want to make the other two elements 
+            look as good as what the button would be like, but I would also want to make them match the theme of the overall website, which is 
+            shades of white, gray, and black. Finally, I would do all of this by using CSS styling through the Javascript HTML DOM.
         </p>
         
     </strong>
